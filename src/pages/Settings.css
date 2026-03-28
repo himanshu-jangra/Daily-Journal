@@ -1,0 +1,131 @@
+.settings-section {
+  margin-bottom: 28px;
+}
+
+.section-title {
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-tertiary);
+  margin-bottom: 10px;
+  padding: 0 4px;
+}
+
+.setting-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.setting-label {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.setting-desc {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  margin-top: 2px;
+}
+
+/* Theme Toggle */
+.theme-toggle {
+  padding: 0;
+}
+
+.toggle-track {
+  display: inline-flex;
+  align-items: center;
+  width: 48px;
+  height: 28px;
+  border-radius: 14px;
+  background: var(--border-color);
+  padding: 2px;
+  transition: background var(--transition-base);
+  position: relative;
+}
+
+.toggle-dark {
+  background: var(--color-lavender);
+}
+
+.toggle-thumb {
+  display: block;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: white;
+  box-shadow: var(--shadow-sm);
+  transition: transform var(--transition-base);
+}
+
+.toggle-dark .toggle-thumb {
+  transform: translateX(20px);
+}
+
+/* Add Question */
+.add-question-row {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+/* Questions List */
+.questions-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.question-item {
+  padding: 12px 14px;
+}
+
+.question-display {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.question-text-item {
+  font-size: 0.85rem;
+  line-height: 1.4;
+  flex: 1;
+}
+
+.question-actions {
+  display: flex;
+  gap: 4px;
+  flex-shrink: 0;
+}
+
+.btn-icon {
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-sm);
+  font-size: 0.85rem;
+  color: var(--text-tertiary);
+  transition: all var(--transition-fast);
+  -webkit-tap-highlight-color: transparent;
+}
+
+.btn-icon:hover {
+  background: var(--bg-secondary);
+  color: var(--text-secondary);
+}
+
+.btn-icon-danger:hover {
+  color: var(--color-error);
+  background: rgba(232, 112, 96, 0.1);
+}
+
+.question-edit .input-field {
+  width: 100%;
+}
