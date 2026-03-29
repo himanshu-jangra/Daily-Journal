@@ -1,0 +1,1 @@
+{"name":"Daily Journal","short_name":"Journal","description":"A privacy-centric daily journaling PWA","start_url":"/","display":"standalone","background_color":"#FAFAF8","theme_color":"#B8E8D0","lang":"en","scope":"/","icons":[{"src":"pwa-192x192.png","sizes":"192x192","type":"image/png"},{"src":"pwa-512x512.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}]}
